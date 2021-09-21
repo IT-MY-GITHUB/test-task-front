@@ -1,2 +1,2 @@
 # test-task-front
-тестовое на позицию Front-end dev.
+frontend-interview test task
