@@ -1,0 +1,39 @@
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
+
+@import "vars";
+@import "mixins";
+@import "vendors/reset";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: $black;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/* Blocks */
+@import 'blocks/header';
+@import 'blocks/task-content';
+@import 'blocks/footer';
